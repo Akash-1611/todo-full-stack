@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authentication test</title>
+</head>
+
+<link rel="stylesheet" href="style.css">
+
+<body>
+    <div class="container">
+        <h1>Authentication Test</h1>
+
+    <h2>Register Developer</h2>
+
+    <div class="form-group">
+        <label for="register-username">username:</label>
+  <input type="text" id="register-username" placeholder="Enter your name">
+    </div>
+
+    <div class="form-group">
+        <label for="register-email">email:</label>
+  <input type="email" id="register-email" placeholder="Enter your email">
+    </div>
+
+    <div class="form-group">
+        <label for="register-password">password:</label>
+  <input type="password" id="register-password" placeholder="Enter your password">
+    </div>
+
+    <button onclick="registerUser()">Register</button>
+
+    <h2>Login</h2>
+        <div class="form-group">
+            <label for="login-email">Email</label>
+            <input type="email" id="login-email" placeholder="Enter your email">
+        </div>
+        <div class="form-group">
+            <label for="login-password">Password</label>
+            <input type="password" id="login-password" placeholder="Enter your password">
+        </div>
+       
+    
+      <button onclick="loginUser()">Login</button>
+
+        <div class="message" id="message"></div>
+    
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
