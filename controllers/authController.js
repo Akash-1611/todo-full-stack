@@ -15,7 +15,7 @@ const registerUser = async (req,res) => {
     }
     catch(err){
         res.status(500).json({error:err.message});
-    }
+    }//catching error
 };
 
 const loginUser = async (req,res) => {
